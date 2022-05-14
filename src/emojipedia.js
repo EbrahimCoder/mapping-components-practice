@@ -1,5 +1,6 @@
 const emojipedia = [
   {
+    key: 1,
     id: 1,
     emoji: "💪",
     name: "Tense Biceps",
@@ -7,6 +8,7 @@ const emojipedia = [
       "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
   },
   {
+    key: 2,
     id: 2,
     emoji: "🙏",
     name: "Person With Folded Hands",
@@ -15,9 +17,12 @@ const emojipedia = [
   },
   {
     id: 3,
+    key: 3,
     emoji: "🤣",
     name: "Rolling On The Floor, Laughing",
     meaning:
       "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
   }
 ];
+
+export default emojipedia;
