@@ -1,7 +1,6 @@
 import React from "react";
 
 function Entry(prop) {
-  // return <h1>Entry Heading</h1>;
   return (
     <div className="term">
       <dt>
